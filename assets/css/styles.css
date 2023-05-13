@@ -377,7 +377,8 @@ img {
 .work_container {
   row-gap: 2rem;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 
@@ -387,11 +388,25 @@ img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  width: 200px;
+  height: 300px;
+}
+
+.work_img>h2{
+  text-align: center;
+  padding: 8px;
+}
+.work_img>p{
+  text-align: center;
+  padding: 4px;
+  color: var(--first-color);
+  
 }
 
 .work_img img {
   transition: 1s;
   cursor: pointer;
+  height: 150px;
 }
 
 .work_img img:hover {
