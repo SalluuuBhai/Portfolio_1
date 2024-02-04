@@ -32,7 +32,7 @@ function sendEmail() {
   Email.send({
     Host: "smtp.gmail.com",
     Username: "md.salmanfaris03@gmail.com",
-    Password: "password",
+    Password: "fgbuthokduglrqse",
     To: "md.salmanfaris03@gmail.com",
     From: document.getElementById("email").value,
     Subject: "New Contact From Enquiry",
