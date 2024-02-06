@@ -1114,11 +1114,12 @@
         <h2 class="section-title" data-aos="fade-down">Contact</h2>
 
         <div class="contact_container bd_grid">
-          <form action="https://api.web3forms.com/submit" method="POST"  class="contact_form">
+          <form action="https://api.web3forms.com/submit" method="POST" id="form" class="contact_form">
             <input type="hidden" name="access_key" value="3048fd29-c7c5-49e4-9f44-176c12a5d1c1">
             <input
             id="name"
               type="text"
+              name="name"
               placeholder="Name"
               class="control_input"
               data-aos="fade-right"
@@ -1128,6 +1129,7 @@
             <input
             id="email"
               type="email"
+              name="email"
               placeholder="Email"
               class="control_input"
               data-aos="fade-right"
@@ -1155,6 +1157,7 @@
               Send
 
             </button>
+            <div id="result"></div>
              
           </form>
         </div>
