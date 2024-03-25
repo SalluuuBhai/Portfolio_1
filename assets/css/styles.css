@@ -396,9 +396,15 @@ img {
   text-align: center;
   padding: 8px;
 }
-.work_img>p{
+.work_img>p {
   text-align: center;
   padding: 4px;
+  color: var(--first-color);
+  
+}
+.work_img>p>a{
+  /* text-align: center;
+  padding: 4px; */
   color: var(--first-color);
   
 }
